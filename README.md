@@ -11,3 +11,4 @@
 | Day | Answer | Rank |
 | --- | ------ | ---- |
 | Day 01 | https://github.com/pulgamecanica/AOC2023/tree/main/day01 | :star: :star2: :eight_pointed_black_star: |
+| Day 02 | https://github.com/pulgamecanica/AOC2023/tree/main/day02 | :star: :star2: :eight_pointed_black_star: |
