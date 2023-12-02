@@ -3,18 +3,9 @@ input     = File.read(file_path)
 file_data = input.split("\n")
 
 def getColorsRBG(colors)
-  red, green, blue = 0, 0, 0
-
-  colors.each do |color|
-    if (color.include?("red"))
-      red += color.to_i
-    elsif (color.include?("blue"))
-      blue += color.to_i
-    elsif (color.include?("green"))
-      green += color.to_i
-    end
-  end
-  return [red, green, blue]
+  return [(colors.find {|c| c.include?("red")}).to_i,
+    (colors.find {|c| c.include?("green")}).to_i,
+    (colors.find {|c| c.include?("blue")}).to_i]
 end
 
 class Bag

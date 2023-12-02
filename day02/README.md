@@ -236,6 +236,14 @@ end
 
 > Note: I used the size to compare for performance, you can also prefer to compare the arrays (without size)
 
+The function `getColorsRBG` can also be done with a one liner ;)<br>
+```rb
+def getColorsRBG(colors)
+  return [(colors.find {|c| c.include?("red")}).to_i,
+    (colors.find {|c| c.include?("green")}).to_i,
+    (colors.find {|c| c.include?("blue")}).to_i]
+end
+```
 ***
 
 ### Part 2
