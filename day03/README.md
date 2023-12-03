@@ -44,7 +44,7 @@ class EngineNumber
 end
 ```
 
-> As you can see it is quite straigh forward, we have an EngineNumber, which contains the number itself `value` and an array with it's neighbors
+> As you can see it is quite straigh forward, we have an EngineNumber, which contains the number itself `value` and an array with it's `neighbors`
 
 We should create a function which evaluates an EngineNumber and tells if it is a part number or not (adjacent `any` to a symbol)
 
@@ -348,7 +348,7 @@ Add the current engine number to the list of `@engine_numbers` of the Gear<br>
 
 > Notice we use `gears.find {...}` to make sure the gear doesn't exists already
 
-#### 2 Now all there is left to do is to sum all the products of the valid gears<br>
+##### 2 Now all there is left to do is to sum all the products of the valid gears<br>
 
 ```rb
 res = gears.sum { |gear| gear.valid? ? gear.part_numbers_neighbors_product : 0}
