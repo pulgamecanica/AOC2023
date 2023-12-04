@@ -113,7 +113,9 @@ The number of matches can also be calculted simply by doing interpolating both t
 matches = (@numbers & @winners).size
 ```
 
-Although this can only work if there are no repeated values on the winners
+Although this can only work if there are no repeated values on the winners list
+
+#### Thank you Hedghog (@Caleb-T-Owens) for this awesome insight!
 
 ### Part 2
 
