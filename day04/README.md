@@ -105,6 +105,16 @@ res = cards.sum {|c| c.get_value}
 puts "Result: #{res}"
 ```
 
+#### More advanced (Perhaps more readable)
+
+The number of matches can also be calculted simply by doing interpolating both the lists, and calculating the size of the resulting array
+
+```rb
+matches = (@numbers & @winners).size
+```
+
+Although this can only work if there are no repeated values on the winners
+
 ### Part 2
 
 For part two, the problem is more complicated, turns out the rules were not quite those presented, turn out the game doesn't give you points like that.<br>
