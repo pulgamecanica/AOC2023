@@ -58,7 +58,7 @@ class EngineNumber
 end
 ```
 
-> Filter all the neighbors which are a period or a digit, if there are `any` neighbors left, it means there is at least one symbol neoghbor
+> Filter all the neighbors which are a period or a digit, if there are `any` neighbors left, it means there is at least one symbol neighbor
 
 
 Now all we have to do is to parse the data<br>

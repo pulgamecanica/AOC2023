@@ -12,4 +12,5 @@
 | --- | ------ | ---- |
 | Day 01 | https://github.com/pulgamecanica/AOC2023/tree/main/day01 | :star: :star2: :eight_pointed_black_star: |
 | Day 02 | https://github.com/pulgamecanica/AOC2023/tree/main/day02 | :star: :star2: :eight_pointed_black_star: |
-| Day 02 | https://github.com/pulgamecanica/AOC2023/tree/main/day03 | :star: :star2: :eight_pointed_black_star: |
+| Day 03 | https://github.com/pulgamecanica/AOC2023/tree/main/day03 | :star: :star2: :eight_pointed_black_star: |
+| Day 04 | https://github.com/pulgamecanica/AOC2023/tree/main/day04 | :star: :star2: :eight_pointed_black_star: |
